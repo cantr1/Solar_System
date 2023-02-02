@@ -1,0 +1,40 @@
+#Title {
+    font-weight: 600;
+    color: whitesmoke;
+    font-family: sans-serif;
+    position: center;
+}
+
+body {
+    background-image: url("imgs/background.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size:cover;
+}
+
+
+p {
+    font-family: sans-serif;
+    font-weight: 400;
+    color: whitesmoke;
+    font-size: 1.5em;
+}
+
+.solar-system {
+    display: flex;
+    flex-wrap: wrap;
+    height: 1000px;
+    width: 1900px;
+    justify-content: space-around;
+}
+
+.planets{
+    width: 200px;
+    height: 300px;
+    justify-content: space-between 20px;
+    transition: 2s;
+}
+.planets:hover {
+    width: 400px;
+    height: 400px;
+}

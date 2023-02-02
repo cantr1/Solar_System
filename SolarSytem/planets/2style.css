@@ -1,0 +1,29 @@
+p {
+    font-family: sans-serif;
+    font-weight: 400;
+    color: whitesmoke;
+    font-size: 1.5em;
+}
+
+h1 {
+    color: white;
+    font-family: sans-serif;
+}
+
+body {
+    background: url("extraimg/pbackground.jpg");
+    background-size: cover;
+}
+
+.background {
+    display: flexbox;
+}
+#mars2 {
+    width: 600px;
+    height: 500px;
+}
+
+#neptune2 {
+    width: 600px;
+    height: 500px;
+}
